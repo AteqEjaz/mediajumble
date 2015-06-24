@@ -22,7 +22,8 @@ default: &default
   pool: 5
   host: localhost
   username: rails
-  password: <%= ENV['APP_DATABASE_PASSWORD'] %>
+  password: maN7BDYFzz
+
 
 development:
   <<: *default
